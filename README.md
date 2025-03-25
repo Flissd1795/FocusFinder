@@ -1,27 +1,30 @@
 # FocusFinder
+Full-Stack web application built from scratch in a group project as part of Makers Academy bootcamp in March 2025.
 
 # Overview
-Full-Stack web application built from scratch.
+FocusFinder is a web application used to showcase locations around the UK which would be ideal spots to study, for students looking for places to work away from home. The user can search for locations by name or address, bookmark locations, mark them as visited, review them, gain achievements and suggest new locations to be added.
 
 # Tech Stack
-C#, Razor, HTML, CSS, Render, API
+C#, Razor, HTML, CSS, PostgreSQL, NUnit, Playwright, Render.
 
 # Timeline
 10 days 
 
 # My Contributions
-- Navbar creation
-- Profile page creation including:
-    - Differentiating between own profile and different users profile dependent on session login
-    - Adding a users own posts to their page
-    - Adding a users friends to their page (which link to their friends accounts)
-- Friend request functionality including:
-    - Friend request button appearing on other users profile which changes to 'add friend', 'friend request sent' or 'remove friend' when clicked
-    - Friend requests being sent to users notifications page and the database when 'add friend' button is clicked
-    - Friend relationship being deleted from database and user profile when 'remove friend' button is clicked
-- Notifications page creation where friend requests are sent and a user can either:
-    - Accept: friend request deleted and friend added to profile friends list
-    - Decline: friend request deleted from notifications page and database
+- Searchbar:
+    - Users can search by by location (city, postcode etc.) as well we keywords (e.g. library).
+- Landing page:
+    - Locations in grid layout with location name, city and overall rating displaying
+- Bookmarking functionality:
+    - Bookmark button added to locations on landing page and individual location page
+    - User can add or remove bookmarks
+    - User can view a list of their bookmarked locations
+ - Achievements:
+    - Users can gain achievements based on number of cities visited and locations visited, bookmarked, and reviewed
+    - Users can view a list of their achievements (initially greyed out and become green when milestone is achieved)
+- Testing:
+    - Unit testing using NUnit
+
 
 [🎥 Watch the demo](https://drive.google.com/file/d/1pTItBONqRRBNRpTUyix6AJ5HtaINnenu//view)
 
